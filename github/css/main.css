@@ -1,0 +1,54 @@
+.main{
+    padding: 20px;
+}
+.main__header {
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+.main span{
+    display: block;
+    font-size: 24px;
+}
+.main h1 {
+    font-size: 24px;
+}
+.video {
+    margin-bottom: 20px;
+}
+form {
+    border: 5px solid #2727d9;
+    padding: 45px 20px;
+    margin-bottom: 20px;
+}
+.form__header {
+    font-size: 20px;
+    font-weight: 700;
+}
+.form input{
+    margin: 15px auto;
+}
+.form__btn{
+    margin: 15px auto;
+    background-color: #2727d9;
+}
+.product__header{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+img {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 100px;
+    max-height: 100px;
+    padding-bottom: 20px;
+}
+.product__btn{
+    margin: 30px auto;
+    background-color: #2727d9;
+    display: block;
+}
+.product__text {
+    font-size: 16px;
+    font-weight: bold;
+}

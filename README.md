@@ -7,4 +7,4 @@
 
 [Ссылка на проект](https://percuciat.github.io/github/ "Тестовый сайт с использованием бутстрапа") - работа с репозиторием GitHub
 
-[Ссылка на Шаблон Landin page](https://percuciat.Product.io/github/ "Заготовка-шаблон") - Откорректировал адаптивность
+[Ссылка на Шаблон Landin page](https://percuciat.github.io/Product/ "Заготовка-шаблон") - Откорректировал адаптивность

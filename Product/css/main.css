@@ -1,0 +1,321 @@
+/* Общие настройки */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #a2a8b0;
+}
+h3 {
+    font-size: 16px;
+    color: #a2a8b0;
+}
+/* Главная */
+.main {
+    background: #445162;
+    color: white;
+    margin-bottom: 70px;
+
+}
+.main__intro{
+    margin-bottom:30px;
+}
+.main__logo {
+    padding: 50px 50px 0px 130px;
+    margin-bottom:30px;
+}
+.main__title {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.text_item p{
+    padding-bottom: -5px;;
+}
+.text__icon {
+    font-size: 16px;
+    color: white;
+    padding-right: 5px;
+}
+.text__item {
+    line-height: 1.0em;
+}
+/* ------Секция About------- */
+.about {
+    background: white;
+}
+.about__title h2 {
+    color:#445162;
+}
+.about__text {
+    color: black;
+    padding-bottom: 20px;
+}
+.about__item {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.about__img {
+    padding-left: 40px;
+}
+/* ------Секция Dignity------- */
+.dignity{
+    background: #f5f5f5;
+    padding-bottom: 30px;
+    position: relative;
+}
+.dignity__title h2 {
+    color:#445162;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+.dignity__icon i{
+    font-size: 30px;
+    padding-right: 10px;
+    color:#445162;
+}
+.dignity__item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* ------Секция Screenshots------- */
+.screenshots {
+    background: white;
+    padding-bottom: 30px;
+}
+.screenshots__title h2{
+    color:#445162;
+    text-align: center;
+    padding-top: 40px;
+}
+.screenshots__text {
+    padding-top: 25px;
+}
+.screenshots__text p{
+    color: black;
+}
+.screenshots__text h3{
+    color:#445162;
+    font-size: 24px;
+}
+/* ------Секция Reviews------- */
+.reviews {
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+.reviews__title {
+    color:#445162;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.reviews__image {
+    margin-top: 20px;
+}
+.reviews__image img {
+    height: 100px;
+    width: 100px;
+    border-radius: 300px;
+}
+.reviews__text {
+    margin-top: 20px;
+   margin-left: 10px;
+    background-color: #ebebeb;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.quate {
+    font: 14px italic;
+    color: black;
+}
+.reviews__author {
+    color: #0c5460;
+    font: 14px italic;
+}
+/* ------Секция Buy it now------- */
+.buy {
+    background: white;
+    padding-bottom: 30px;
+}
+.buy__title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:#445162;
+}
+.buy__item {
+    background: #445162;
+    border-radius: 5px;
+}
+.item__name h3 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+}
+.item__price {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    background: white;
+    margin: 0 3px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.item__price i{
+    padding-top: 10px;
+    font-size: 38px;
+    padding-right: 5px;
+}
+.item__text ol{
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.btn{
+    display: block;
+}
+.buy__button{
+    color: #445162;
+    background: white;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+}
+.standart {
+    position: relative;
+    top: 168px;
+}
+.premium {
+    position: relative;
+    top: 84px;
+}
+/* ------Секция Contact------- */
+.contact {
+    background: #445162;
+    padding-bottom: 30px;
+}
+.contact__title h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+textarea {
+    width: 100%;
+    min-height: 150px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+form {
+     padding: 25px 55px;
+}
+.contact__button {
+    font-weight: bold;
+    font-size: 16px;
+    min-width: 100px;
+    border-radius: 5px;
+    border: 0;
+}
+.contact__media {
+    padding: 25px 55px;
+    color: white;
+}
+.icon{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 15px;
+    color: white;
+}
+.icon__social {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    color: white;
+}
+/* ----Footer----- */
+.footer p{
+    font-size: 12px;
+    background: white;
+    text-align: center;
+    padding-top: 5px;
+}
+@media screen and (max-width: 988px) {
+    .main__intro {
+        text-align: center;
+    }
+    .main__intro p {
+        text-align: left;
+    }
+    .main__logo {
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .buy h2 {
+        padding: 10px;
+        margin: 10px auto;
+    }
+    .standart, .premium{
+        top: 0;
+        margin: 15px auto;
+    }
+    .buy__item {
+        max-width: 600px;
+        margin: 10px auto;
+    }
+    .btn {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .contact__media{
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .about__img {
+        padding: 10px 10px;
+    }
+    .about__item {
+        margin: 5px;
+        padding: 0;
+    }
+    .reviews-media {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    .item__img img{
+        width: 185px;
+        height: 185px;
+    }
+    .screenshots__text {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}
